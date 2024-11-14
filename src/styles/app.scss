@@ -1,0 +1,30 @@
+// styles/App.scss
+/* In your main CSS file, e.g., App.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+// Abstracts
+@import './abstracts/variables';
+@import './abstracts/mixins';
+@import './abstracts/animations';
+
+// Base styles
+@import './base/reset';
+@import './base/typography';
+
+// Layouts
+@import './layouts/grid';
+@import './layouts/header'; // Import des styles pour le Header
+@import './layouts/main';
+@import './layouts/footer';
+
+// Components
+@import './components/navbar';
+@import './components/footer';
+@import './components/button';
+
+// Pages
+@import './pages/home';
+@import './pages/about';
+@import './pages/project';
+@import './pages/skills';
+@import './pages/contact';

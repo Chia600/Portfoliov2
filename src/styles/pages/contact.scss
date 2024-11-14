@@ -1,0 +1,41 @@
+.contact {
+    padding: 2rem;
+
+    h2 {
+        font-size: 2rem;
+        color: $primary-color;
+    }
+    .div-contact {
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            margin-top: $margin-small;
+        }
+
+        input,
+        textarea {
+            padding: $padding-medium;
+            border: 1px solid $secondary-color;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+        }
+
+        button {
+            margin-top: $margin-small;
+            background-color: $primary-color;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($primary-color, 10%);
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@mixin respond-to($breakpoint) {
+    @if $breakpoint ==small {
+        @media (max-width: $bp-small) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==medium {
+        @media (max-width: $bp-medium) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint ==large {
+        @media (max-width: $bp-large) {
+            @content;
+        }
+    }
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

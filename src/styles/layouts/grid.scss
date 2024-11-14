@@ -1,0 +1,19 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+.center {
+    display: flex;
+    justify-content: center; // Centrer horizontalement
+    align-items: center; // Centrer verticalement
+    text-align: center; // Centrer le texte à l'intérieur
+}

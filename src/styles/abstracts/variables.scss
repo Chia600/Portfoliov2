@@ -1,0 +1,37 @@
+// Couleurs
+$primary-color: #4a90e2;
+$secondary-color: #333;
+$background-color: #f4f4f9;
+$text-color: #222;
+$accent-color: #ff6b6b; // Couleur d'accent pour attirer l’attention sur certains éléments (ex : boutons)
+
+// Breakpoints pour responsive design
+$bp-small: 480px;
+$bp-medium: 768px;
+$bp-large: 1024px;
+$bp-xlarge: 1200px;
+
+// Typographie
+$font-family: 'Arial', sans-serif;
+$heading-font-family: 'Helvetica', sans-serif; // Font alternative pour les titres
+$font-size-base: 16px;
+$font-size-large: 1.25rem;
+$font-size-small: 0.875rem;
+
+// Margin et Padding
+$margin-small: 0.5rem;
+$margin-medium: 1rem;
+$margin-large: 1.5rem;
+
+$padding-small: 0.5rem;
+$padding-medium: 1rem;
+$padding-large: 1.5rem;
+
+// Bordures
+$border-radius: 4px; // Bordure par défaut pour les éléments comme les boutons
+$border-color: #ddd;
+
+// Ombres
+$box-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.1);
+$box-shadow-medium: 0px 6px 12px rgba(0, 0, 0, 0.15);
+$box-shadow-strong: 0px 8px 16px rgba(0, 0, 0, 0.2);
