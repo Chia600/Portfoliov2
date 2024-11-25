@@ -4,7 +4,7 @@ const skills = [
   { name: "Django", level: "Intermédiaire" },
   { name: "PostgreSQL", level: "Avancé" },
   { name: "PHP", level: "Intermédiaire" },
-  { name: "Symphonie", level: "Intermédiaire" },
+  { name: "Symphony", level: "Intermédiaire" },
   // Ajoute d’autres compétences
 ];
 

@@ -1,16 +1,27 @@
 @import "../abstracts/variables.scss";
-footer {
+
+.footer {
     background-color: $secondary-color;
     color: #fff;
-    padding: $padding-medium;
     text-align: center;
+    padding: $padding-medium;
+    font-size: 0.9rem;
 
-    a {
-        color: lighten($primary-color, 30%);
-        margin: 0 $margin-medium;
+    &__socials {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: $margin-medium;
+    }
+
+    &__icon {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
 
         &:hover {
-            color: lighten($primary-color, 50%);
+            transform: scale(1.2);
+            background-color: $background-color;
         }
     }
 }

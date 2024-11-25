@@ -18,9 +18,8 @@ const projects = [
   },
   {
     title: "Site Portfolio",
-    description:
-      "Un site dynamique afin de me présenter",
-    link: "",
+    description: "Un site dynamique afin de me présenter",
+    link: "https://github.com/Chia600/Portfoliov2",
     techStack: ["React"],
     images: [
       `${process.env.PUBLIC_URL}/assets/`,
@@ -58,7 +57,7 @@ function Projects() {
                   src={image}
                   alt={`Screenshot ${idx + 1} of ${project.title}`}
                   style={{
-                    width: "60%",         // Adjust the width to fit nicely in the carousel
+                    width: "30%",         // Adjust the width to fit nicely in the carousel
                     height: "50%",
                     display: "block",
                     margin: "auto",

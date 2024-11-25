@@ -28,3 +28,22 @@
 @import './pages/project';
 @import './pages/skills';
 @import './pages/contact';
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; // Garantit que l'app occupe toute la hauteur de l'écran
+}
+
+.content {
+    flex: 1; // Permet au contenu principal d'occuper l'espace restant
+    padding: 20px; // Ajoute de l'espacement
+}
+
+.footer {
+    background-color: $secondary-color; // Couleur définie dans _variables.scss
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}

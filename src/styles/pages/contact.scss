@@ -3,7 +3,7 @@
 
     h2 {
         font-size: 2rem;
-        color: $primary-color;
+        color: #4a90e2;
     }
     .div-contact {
         text-align: center;
@@ -13,20 +13,20 @@
         flex-direction: column;
 
         label {
-            margin-top: $margin-small;
+            margin-top:0.5rem;
         }
 
         input,
         textarea {
-            padding: $padding-medium;
-            border: 1px solid $secondary-color;
+            padding:1rem;
+            border: 1px solid #333;
             border-radius: 5px;
             margin-top: 0.5rem;
         }
 
         button {
-            margin-top: $margin-small;
-            background-color: $primary-color;
+            margin-top: 0.5rem;
+            background-color: #4a90e2;
             color: #fff;
             padding: 0.5rem 1rem;
             border: none;
@@ -34,7 +34,7 @@
             cursor: pointer;
 
             &:hover {
-                background-color: darken($primary-color, 10%);
+                background-color: darken(#4a90e2, 10%);
             }
         }
     }
